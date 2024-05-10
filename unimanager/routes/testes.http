@@ -1,0 +1,12 @@
+GET http://localhost:3000/utilizador
+Accept: application/json
+
+###
+POST http://localhost:3308/api/est
+Content-Type: application/json
+
+
+{"usId": 9,
+  "ctId": 132,
+  "lblId": 2
+}
